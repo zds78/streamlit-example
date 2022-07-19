@@ -4,10 +4,18 @@ import math
 import pandas as pd
 import streamlit as st
 
+import requests
+
 st.set_page_config(
     page_title="Hello",
     page_icon="👋",
 )
+
+
+rsp = requests.get("http://wwww.baidu.com")
+
+# rsp.text
+rsp
 
 st.write("# Welcome to Streamlit! 👋")
 
