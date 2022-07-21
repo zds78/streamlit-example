@@ -13,4 +13,6 @@ if img_file:
     fl = open(img_file.name, 'wb')
     fl.write(bytes_data)
     fl.close()
+    st.write('write file:', img_file.name)
+
 
